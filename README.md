@@ -8,6 +8,5 @@
 ## Credits: <br/>
 <b><a href="https://discord.gg/OldTimes">Discord.gg/OldTimes</a></b><br/>
 <b><a href="https://otrp.ro">OTRP.RO</a></b><br/>
-<b>OldTimes</b><br/>
-<span style="font-size:8px;">Raag2005#0001</span>
+<span>OldTimes</span><br/>
 
