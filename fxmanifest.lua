@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'OldTimes'
 description 'Default Script - Write from Scratch'
-version '2.0'
+version '0.1'
 
 shared_script 'config.lua'
 
