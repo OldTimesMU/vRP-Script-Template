@@ -54,7 +54,7 @@
 ##########################
 
  QBCore.UI.Menu.Open
- QBCore.UI.Menu.CloseAll()  (menu default scripti kurmanÄąz gerekmektedir.)
+ QBCore.UI.Menu.CloseAll() 
 
  ESX.UI.Menu.Open
  ESX.UI.Menu.CloseAll()
