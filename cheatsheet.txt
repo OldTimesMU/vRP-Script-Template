@@ -66,9 +66,9 @@
 ###### NOTIFY ############
 ##########################
 
- QBCore.Functions.Notify("AraĂ§ kitlendi.", "error")
+ QBCore.Functions.Notify(".", "error")
 
- TriggerEvent('Notification',"Ărnek.")
+ TriggerEvent('Notification',".")
 
  vRPclient.notify(source,{"Message"})
 
