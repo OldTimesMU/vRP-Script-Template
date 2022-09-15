@@ -1,4 +1,4 @@
-# vRP Script Template 0.1
+# vRP Script Template 0.2a
 <p> Template default pentru a crea script-uri vRP </p>
 
 ## Informatii
@@ -10,7 +10,7 @@
 # v0.1 - Template pentru script basic
 Inclus si cheatsheet.txt pentru convertiri
 
-# v0.2 - Adaugat template "avansat"
+# v0.2a - Adaugat template "avansat"
 Impreuna cu comentarii pe cod pentru a fi mai usor pentru incepatori
 
 ## Credits: <br/>
