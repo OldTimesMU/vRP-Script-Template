@@ -43,7 +43,7 @@ function Template.event:playerSpawn(user, first_spawn)
 			ment[2].pos = {x,y,z-1}								-- Preia x,y,z de mai sus
 			
 			vRP.EXT.Map.remote._addEntity(user.source, ment[1], ment[2])			-- adaugat permanent cu marker
-			vRP.EXT.Map.remote._setEntity(user.source, ment[1], ment[1], ment[2])	-- can be removed but doesnt show marker
+			vRP.EXT.Map.remote._setEntity(user.source, ment[1], ment[1], ment[2])	-- poate fi sters dar nu arata marke-ul
 
 			user:setArea("Test"..k,x,y,z,1,1.5,enter,leave)
 		end
