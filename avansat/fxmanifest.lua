@@ -10,8 +10,7 @@ shared_script {
 }
 
 server_script {		
-    "server.lua",
-	"vrp.lua"
+	"vrp.lua" -- Nu e nevoie sa punem server.lua aici pentru ca isi face load din fisierul vrp.lua
 }
 
 client_scripts {

@@ -14,6 +14,6 @@ Tunnel.bindInterface("vrp_template",vRPab)
 ABserver = Tunnel.getInterface("vrp_template","vrp_template")
 
 
--- Start functions here
+-- Incepe functia de aici
 
 print(Config.test)
