@@ -13,6 +13,9 @@ Inclus si cheatsheet.txt pentru convertiri
 # v0.2a - Adaugat template "avansat"
 Impreuna cu comentarii pe cod pentru a fi mai usor pentru incepatori
 
+# v0.3 - Adaugata o functie client/server side de baza
+Cu indicatii pentru a putea recrea o functie de la 0
+
 ## Credits: <br/>
 <b><a href="https://discord.gg/OldTimes">Discord.gg/OldTimes</a></b><br/>
 <b><a href="https://otrp.ro">OTRP.RO</a></b><br/>
