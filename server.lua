@@ -19,6 +19,25 @@ ABclient = Tunnel.getInterface("vrp_template","vrp_template")
 Tunnel.bindInterface("vrp_template",vRPab)
 
 
--- Incepe functia de aici
-
+-- Incepe scriptul de aici
 print(Config.print)
+
+-- Functie de b aza
+
+local functietest = {function(source) 
+    TriggerClientEvent("functietestclient",source)
+    vRPclient.notify(source, {"Ai folosit functia test cu succes"})
+end,"Functie test."}
+
+-- Buton in meniu pentru a folosi functia adaugata
+
+vRP.registerMenuBuilder({"testmeniu", function(add, data) -- Numele care sa apara in casuta la meniu
+    local user_id = vRP.getUserId({data.player}) 
+   if user_id ~= nil then
+      local choices = {}
+       if vRP.hasGroup({user_id,"testgrup"}) then -- Verifica daca jucatorul are grupul necesar pentru a folosi butonul din meniu
+          choices["Hack"]  = a_hacker -- 
+      end    
+      add(choices)
+    end
+end}) 
