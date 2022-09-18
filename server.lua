@@ -22,7 +22,7 @@ Tunnel.bindInterface("vrp_template",vRPab)
 -- Incepe scriptul de aici
 print(Config.print)
 
--- Functie de b aza
+-- Functie de baza
 
 local functietest = {function(source) 
     TriggerClientEvent("functietestclient",source)
