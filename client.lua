@@ -13,7 +13,13 @@ vRPab = {}
 Tunnel.bindInterface("vrp_template",vRPab)
 ABserver = Tunnel.getInterface("vrp_template","vrp_template")
 
-
--- Incepe functia de aici
+-- Incepe scriptul de aici
 
 print(Config.test)
+
+-- Functie basic partea client
+
+RegisterNetEvent("functietestclient")
+AddEventHandler('functietestclient', function(text)
+  print(('Functie Test'):format(text)) -- Mesajul care sa-l primesti in consola
+end)
